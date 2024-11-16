@@ -20,5 +20,17 @@ class Employee {
     this.name = name;
   }
 
-  
+  //Getter for salary
+  public double getSalary() {
+    return salary;
+  }
+
+  //Setter for salary (adding some validations)
+  public void setSalary(double salary) {
+    if (salary > 0) {
+      this.salary = salary;
+    } else {
+      System.out
+    }
+  }
 }
