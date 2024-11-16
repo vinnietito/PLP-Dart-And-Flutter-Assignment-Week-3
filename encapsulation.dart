@@ -1,3 +1,5 @@
+// 1. Encapsulation
+
 class Employee {
   // Private variables (sensitive data)
   String _name;

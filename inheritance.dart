@@ -1,3 +1,5 @@
+//2. Inheritance
+
 //Superclass
 class Animal {
   void speak(){
