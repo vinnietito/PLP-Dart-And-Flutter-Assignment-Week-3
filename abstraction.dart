@@ -26,3 +26,12 @@ class Cat extends Animal {
     print("The cat meows");
   }
 }
+
+void main() {
+  var dog = Dog();
+  dog.sound(); //Outputs: The dog barks
+  dog.eat(); //Outputs: This animal eats food
+
+  var cat = Cat();
+  cat.sound(); 
+}
