@@ -28,5 +28,8 @@ void main() {
   shape.draw(); //Outputs: Drawing a shape
 
   Shape circle = Circle();
-  circle.draw();
+  circle.draw(); //Outputs: Drawing a circle
+
+  Shape square = Square();
+  square.draw(); //Outputs: Drawing a square
 }
