@@ -1,17 +1,16 @@
 class Employee {
-  //Private variables (sensitive data)
-  String name;
-  double salary;
+  // Private variables (sensitive data)
+  String _name;
+  double _salary;
 
-  //Constructor
+  // Constructor
   Employee(
-    this.name,
-    this.salary
+    this._name,
+    this._salary
   );
 
-  //Getter for name
-  String get _name => name;
+  // Getter for name
+  String get name => _name;
 
-  //Setter for name
-  set name(String name) => name = _name;
-}
+  // Setter for name
+  set name(String name) => _name = name;
