@@ -33,5 +33,6 @@ void main() {
   dog.eat(); //Outputs: This animal eats food
 
   var cat = Cat();
-  cat.sound(); 
+  cat.sound();  //Outputs: The cat meows
+  cat.eat(); //Outputs: this animal eats food
 }
